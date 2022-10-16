@@ -1,0 +1,89 @@
+<html>
+    <head> <title>Desafio1</title>
+        <body>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"  width="150"alt="Logo_HTML" id="imagem">
+            <h1>contéudo introdutório de HTML </h1>
+            <hr>
+            <h2 id="indice">Indice</h2>
+            <ul>
+                <li><a href="#Estrutura">Estrutura básica do HTML</a></li>
+                <li><a href="#tags">Tags</a></li>
+                <li><a href="#listas">Listas</a></li>
+                <li><a href="#links">Links</a></li>
+            </ul>
+
+            <hr>
+
+            <h2 id="Estrutura">Estrutura básica do HTML</h2> <small><a href="#imagem">(voltar)</a></small>
+            <h3>O que é HTML?</h3>
+             <p>HTML (<strong>Linguagem de Marcação de HiperTexto</strong> ) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</p>
+
+             <p><u>html</u>: Início da página html, em que engloba todo o código dela.</p>
+
+             <p><u>head</u>: Todo codigo que será executado antes dos elementos de marcação da página.</p>
+            
+             <p><u>body</u>: Corpo do texto em que será colocado o texto, atributos, imagens, links e etc.</p>
+            <hr>
+            <h2 id="tags">Tags:</h2> <small><a href="#imagem">(voltar)</a></small>
+             <p>Tags são utilizadas para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre outros.</p>
+
+             <p><strong>Tags usadas em títulos:</strong></p>
+             <p>As páginas HTML podem usar as tags para fazerem títulos e sub-títulos, por meio do "h1" até o "h6", em que respectivamente, tem maior e menor poder, não é contado o tamanho da letra, e sim a importância dela.</p>
+             <p>"h1" tem a maior hierarquia, é o título principal(recomendável ter 1 por página)</p>
+             <p>"h2 tem a segunda maior hierarquia, sendo sub-título(pode ter vários)"</p>
+             <p>"h3", "h4", "h5" e "h6", vão diminuindo sua hierarquia, não é necessário ter uma menor hierarquia do que o h6(pode ter quantos quiser)</p>
+
+             <p><strong>Tags usadas em parágrafos:</strong> </p>
+             <p>"p" faz com que possíbilite o uso dos parágrafos, sempre quando for escrever um texto, use ele.</p>
+             <p>"i" faz com que seu texto fique em <i>itálico</i>.</p>
+             <p>"strong" faz com que seu texto fique em <strong>negrito</strong>.</p>
+             <p>"small" faz com que seu texto fique <small>pequeno</small>.</p>
+             <p>"u" faz com que seu texto fique <u>sublinhado</u>.</p>
+             <p>"mark" faz com que seu texto fique <mark>pintado de marca texto</mark>.</p>
+             <p>"sup" faz com que seu texto fique <sup>elevado</sup>.</p>
+             <p>"sub" faz com que seu texto fique <sub>rebaixado</sub>.</p>
+             <p>"blockquote" faz com que você cite uma outra fonte, exemplo, <blockquote>"O homem que move montanhas, começa levantando pequenas pedras" </blockquote></p>
+             <p>"del" faz com que um texto seja rasurado e outro entra em seu lugar, exemplo, gosto da cor <del>Azul</del>verde.</p>
+             <p>"abbr" abrevia palavras com significados grandes, ou siglas, exemplo, <abbr title="Javascript">JS</abbr></p>
+             <p>"hr" faz com que apareça uma linha atráves da página, que dívide partes dela, como demonstrado abaixo.</p>
+             <hr>
+             <h2 id="listas">Listas:</h2> <small><a href="#imagem">(voltar)</a></small>
+             <p>Listas são importissimas numa página HTML, pois organizam elementos que podem estar ordenados ou não, ambas necessitam da tag "li" dentro delas para adicionar elementos á lista.</p>
+             <p><h3>Listas Ordenadas:</h3>"ol" são listas que irão ter uma ordem imposta pelo HTML ou programador, começando por 1 em diante.</p>
+             <p>Exemplo de uma ol:</p>
+             <p>Lista de prêmios:</p><ol>
+                <li>Medalha de Ouro</li>
+                <li>Medalha de Prata</li>
+                <li>Medalha de Bronze</li>
+                <li>Certificado de Participação</li>
+             </ol>
+             <p>Pode ter uma lista dentro de outras.</p>
+             <ol>
+                <li>Turma A 
+                        <ol>
+                        <li>Amanda</li>
+                        <li>Yuri</li>
+                        <li>Petra</li>   
+                        </ol>
+                </li>
+             </ol>
+            <p><h3>Listas Não-Ordenadas:</h3>"ul" são listas que não tem ordem específica, em que o padrão de indicação de cada elemento é uma bolinha.(também pode haver uma dentro de outras listas) </p>
+            <p>Exemplo de uma ul:</p>
+            <p>Lista de compras:</p>
+            <ul>
+                <li>Tomate</li>
+                <li>Aveia</li>
+                <li>Canela</li>
+                <li>Alecrim</li>
+            </ul>
+            <hr>
+            <h2 id="links">Links:</h2> <small><a href="#imagem">(voltar)</a></small>
+            <p>Links são usados para levar o usúario até outros endereços.</p>
+            <p>"a" vem de anchor(âncora), que é a tag usada para links, que vem acompanhada do atributo, "href", sendo a url que você escolherá para ser o link, junto com um texto para ser clicado.</p>
+            <a href="https://www.youtube.com/" title="Abrirá aqui">youtube</a>
+            <p>Esse link irá abrir na mesma página da principal.</p>
+            <a href="https://www.youtube.com/" target="_blank" title="Abrirá em outra aba">youtube</a>
+            <p>Com o "target" e "_blank", o link irá abrir em outra aba.</p>
+        </body>
+    </head>
+</html>
